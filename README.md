@@ -90,6 +90,56 @@ See `NetworkModule.kt` for API configuration.
 
 This project is created for assignment purposes.
 
+## 📹 Demo Video
+
+A screen recording demonstrating the complete app flow is available below:
+
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+**Or attach via GitHub Releases:**
+1. Go to your repository: https://github.com/felixny/voice-app
+2. Click **"Releases"** → **"Create a new release"**
+3. Upload your demo video file
+4. Add description and publish
+5. Link will be: `https://github.com/felixny/voice-app/releases`
+
+**Alternative Hosting Options:**
+- **YouTube**: Upload as Unlisted and paste link
+- **Google Drive**: Upload video, share link, set to "Anyone with link"
+- **Loom**: Record directly or upload, get shareable link
+- **Vimeo**: Upload video and embed link
+
+### How to Attach Demo Video to GitHub:
+
+**Option 1: GitHub Releases (Recommended)**
+```
+1. Go to: https://github.com/felixny/voice-app/releases/new
+2. Tag: v1.0.0
+3. Title: Initial Release - Voice App Demo
+4. Upload: Your demo video file (.mp4)
+5. Publish release
+6. Link: Share the release URL
+```
+
+**Option 2: Embed in README**
+If video is on YouTube/Loom/Vimeo:
+```markdown
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+```
+
+**Option 3: Direct Link**
+Add link in README:
+```markdown
+## 📹 Demo Video
+[Watch Demo Video Here](YOUR_VIDEO_LINK)
+```
+
+**Option 4: Add to Repository**
+Upload video file to repository (not recommended for large files):
+- Create `demo/` folder
+- Upload `demo-screen-recording.mp4`
+- Add to `.gitignore` if > 100MB, or use Git LFS
+
 ## 👤 Author
 
 Built for Android Developer Take Home Assignment
